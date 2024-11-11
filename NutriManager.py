@@ -158,9 +158,9 @@ if _name_ == "_main_":
     picam2 = start_camera()
 
     # Path to your Firebase credentials JSON file
-    cred = credentials.Certificate('nutri-manager-c6779-firebase-adminsdk-d9o1n-1196058a19.json')# Initialize the app with a service account, granting admin privileges
+    cred = credentials.Certificate('') Initialize the app with a service account, granting admin privileges
     firebase_admin.initialize_app(cred, {
-        'databaseURL': 'https://nutri-manager-c6779-default-rtdb.firebaseio.com/'
+        'databaseURL': ''
     })# Reference to your Firebase database
 
     while True:
