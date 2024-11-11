@@ -151,7 +151,7 @@ def start_inference_loop(model_path="class_model_optm.tflite", max_predictions=5
     return most_common_class
 
 if _name_ == "_main_":
-    device_mac_address = "E0:5A:1B:7A:12:52"
+    device_mac_address = ""
     sensor_characteristic_uuid = "2A58"
     class_characteristic_uuid = "2A59"
 
