@@ -23,7 +23,7 @@ BLEByteCharacteristic sensorCharacteristic("2A58", BLERead | BLEWrite);
 BLEByteCharacteristic classsCharacteristic("2A59", BLERead | BLEWrite);
 
 // Allowed central MAC addresses
-const String allowedMACs[] = {"2c:cf:67:69:35:eb"};
+const String allowedMACs[] = {""};
 int16_t class_val = 20; // To show that the 20 value signifies no food class
 
 struct Food {
